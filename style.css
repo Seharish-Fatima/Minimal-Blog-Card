@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.box {
+  max-width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 10px;
+}
+
+.image {
+  max-height: 152px;
+  max-width: 336px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  margin-top: 6px;
+  margin-bottom: 16px;
+  color: #7c19ee;
+  margin-left: 16px;
+  border: 1px solid #e5eaf0;
+  border-radius: 10px;
+  font-size: 0.65rem;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #e5eaf0;
+}
+
+h1 {
+  margin-bottom: 6px;
+  color: #20293a;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.125rem;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #394150;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.875rem;
+}
+
+.name {
+  margin-top: 20px;
+  color: #394150;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+hr {
+  color: #e5eaf0;
+}
+
+img {
+  border-radius: 20px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
